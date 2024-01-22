@@ -91,4 +91,4 @@ class sketch_from_svg:
 
 
 pen = sketch_from_svg("ayodhya.svg", scale=100)
-pen.draw()
+pen.draw(retain=False)
