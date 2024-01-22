@@ -34,7 +34,7 @@ class sketch_from_svg:
         return int(r, 16) / 255, int(g, 16) / 255, int(b, 16) / 255
 
     def load_svg(self):
-        print("Loading Data")
+        print("Loading Data ...")
         paths, attributes, svg_att = svg2paths2(self.path)
         h = svg_att["height"].split("px")[0]
         w = svg_att["width"].split("px")[0]
